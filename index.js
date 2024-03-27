@@ -37,7 +37,7 @@ const getProxiesList = async (token) => {
 };
 
 const getCaptchaToken = async () => {
-  const apiKey = "xxxx";
+  const apiKey = "xxxx"; // Your apikey 2captcha.com
   const siteKey = "6LeHZ6UUAAAAAKat_YS--O2tj_by3gv3r_l03j9d";S
   const url = `http://2captcha.com/in.php?key=${apiKey}&method=userrecaptcha&googlekey=${siteKey}&pageurl=https://proxy2.webshare.io/`;
 
